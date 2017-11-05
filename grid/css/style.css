@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body{
+    font-family: 'Merriweather', serif;
+    background-image: url("../img/bg4.jpg");
+}
+.maincontent{
+    width: 54vh;
+    height: 54vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 1vh;
+}
+.maincontent div{
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    width: 10vh;
+    height: 10vh;
+    font-size: 2.5vh;
+    color: rgb(220,220,220);
+    transition: width .5s, height .5s, margin .5s, background-color .5s;
+}
+a, a:link, a:hover, a:active, a:visited{
+    /*color:inherit;*/
+    color:rgb(175,175,175);
+    text-decoration: none;
+}
+.maincontent div:hover{
+    background-color: rgba(0,0,0,.75);
+    width:12vh;
+    height: 12vh;
+    margin:-1vh;
+}
