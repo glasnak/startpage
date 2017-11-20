@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 body{
     font-family: 'Merriweather', serif;
-    background-image: url("../img/bg4-tiny.jpg");
+    background-image: url("../img/bg4-tinier.svg");
 }
 .maincontent{
     width: 54vh;
